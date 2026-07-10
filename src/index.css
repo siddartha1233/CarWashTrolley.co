@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  --primary: #0f3d75;
+  --secondary: #1d4ed8;
+  --accent: #f59e0b;
+
+  --background: #ffffff;
+  --surface: #f8fafc;
+
+  --text: #1f2937;
+  --text-light: #6b7280;
+
+  --border: #e5e7eb;
+
+  --shadow-sm: 0 2px 8px rgba(0,0,0,.05);
+  --shadow-md: 0 8px 20px rgba(0,0,0,.08);
+}
+
+/* Rest of your CSS... */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:"Inter",sans-serif;
+  color:var(--text);
+  background:var(--background);
+  overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:"Poppins",sans-serif;
+  color:var(--text);
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+button{
+  cursor:pointer;
+  font-family:inherit;
+}
+
+ul{
+  list-style:none;
+}
+
+.container{
+  width:min(1280px,90%);
+  margin:auto;
+}
+
+.section{
+  padding:90px 0;
+}
