@@ -1,20 +1,33 @@
+import { Link } from "react-router-dom";
+import Logo from "./Logo";
+import NavLinks from "./NavLinks";
+
 const Navbar = () => {
   return (
-    <header className="bg-white shadow-sm">
-      <div className="container h-20 flex items-center justify-between">
-        <h2 className="text-2xl font-bold text-[var(--primary)]">
-          CarWashTrolley.co
-        </h2>
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+      <div className="container flex h-20 items-center justify-between">
 
-        <nav>
-          <ul className="flex gap-8 font-medium">
-            <li>Home</li>
-            <li>About</li>
-            <li>Products</li>
-            <li>Gallery</li>
-            <li>Contact</li>
-          </ul>
+        {/* Logo */}
+        <Logo />
+
+        {/* Desktop Navigation */}
+        <nav className="hidden lg:block">
+          <NavLinks />
         </nav>
+
+        {/* CTA Button */}
+        <Link
+          to="/quote"
+          className="hidden lg:inline-flex items-center justify-center rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white"
+        >
+          Request Quote
+        </Link>
+
+        {/* Mobile Menu Placeholder */}
+        <button className="lg:hidden text-3xl">
+          ☰
+        </button>
+
       </div>
     </header>
   );
