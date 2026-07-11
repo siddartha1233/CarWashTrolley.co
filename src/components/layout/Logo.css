@@ -1,0 +1,69 @@
+/* ===================================
+   Logo
+=================================== */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.logo:hover {
+    opacity: 0.85;
+}
+
+.logo-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--primary);
+    color: var(--white);
+
+    border-radius: 12px;
+
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-title {
+    margin: 0;
+
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+
+    color: var(--primary);
+}
+
+.logo-tagline {
+    margin-top: 4px;
+
+    font-size: 13px;
+    color: var(--text-light);
+
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+
+    .logo-title {
+        font-size: 18px;
+    }
+
+    .logo-tagline {
+        display: none;
+    }
+
+}

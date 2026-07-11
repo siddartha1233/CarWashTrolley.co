@@ -1,0 +1,27 @@
+/* ===================================
+   Footer
+=================================== */
+
+.footer {
+    background: var(--primary);
+    padding: 30px 0;
+}
+
+.footer-container {
+    width: 1280px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: var(--white);
+
+    font-size: 15px;
+    font-weight: 400;
+
+    letter-spacing: 0.3px;
+}

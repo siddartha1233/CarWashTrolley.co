@@ -1,0 +1,85 @@
+/* ===================================
+   Navbar
+=================================== */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #ffffff;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-container {
+    width: min(1280px, 90%);
+    height: 80px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 28px;
+
+    background: var(--primary);
+    color: #ffffff;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.navbar-button:hover {
+    background: var(--primary-hover);
+}
+
+.navbar-mobile-toggle {
+    display: none;
+
+    background: transparent;
+    border: none;
+
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* ===================================
+   Responsive
+=================================== */
+
+@media (max-width: 992px) {
+
+    .navbar-navigation {
+        display: none;
+    }
+
+    .navbar-button {
+        display: none;
+    }
+
+    .navbar-mobile-toggle {
+        display: block;
+    }
+
+}

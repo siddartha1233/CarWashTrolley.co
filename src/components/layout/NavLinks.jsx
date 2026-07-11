@@ -1,19 +1,16 @@
 import { NavLink } from "react-router-dom";
 import { siteConfig } from "../../data/siteConfig";
+import "./NavLinks.css";
 
 const NavLinks = () => {
   return (
-    <ul className="flex items-center gap-8">
+    <ul className="nav-links">
       {siteConfig.navigation.map((item) => (
-        <li key={item.name}>
+        <li key={item.name} className="nav-item">
           <NavLink
             to={item.path}
             className={({ isActive }) =>
-              `text-[15px] font-medium transition-colors duration-300 ${
-                isActive
-                  ? "text-[var(--primary)]"
-                  : "text-gray-700 hover:text-[var(--primary)]"
-              }`
+              isActive ? "nav-link active" : "nav-link"
             }
           >
             {item.name}
