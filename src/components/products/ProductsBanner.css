@@ -1,0 +1,77 @@
+/* ===================================
+   Products Banner
+=================================== */
+
+.products-banner {
+
+    padding: 120px 0;
+
+    background: linear-gradient(
+        135deg,
+        #f8fbff 0%,
+        #ffffff 50%,
+        #eef5ff 100%
+    );
+
+}
+
+.products-banner-container {
+
+    width: 1000px;
+    max-width: 90%;
+    margin: auto;
+
+    text-align: center;
+
+}
+
+.products-banner-subtitle {
+
+    color: var(--primary);
+
+    font-size: 14px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+}
+
+.products-banner-title {
+
+    margin: 20px 0;
+
+    font-size: 58px;
+
+    line-height: 1.2;
+
+}
+
+.products-banner-description {
+
+    max-width: 750px;
+
+    margin: auto;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    color: var(--text-light);
+
+}
+
+@media(max-width:768px){
+
+.products-banner{
+
+padding:80px 0;
+
+}
+
+.products-banner-title{
+
+font-size:40px;
+
+}
+
+}

@@ -1,0 +1,88 @@
+/* ===================================
+   CTA
+=================================== */
+
+.cta {
+    padding: 100px 0;
+    background: var(--primary);
+}
+
+.cta-container {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.cta-title {
+    margin-bottom: 20px;
+
+    color: #fff;
+    font-size: 48px;
+}
+
+.cta-description {
+    margin: 0 auto 40px;
+
+    max-width: 650px;
+
+    color: rgba(255,255,255,.85);
+
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-primary,
+.cta-secondary {
+    display: inline-block;
+
+    padding: 16px 34px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.cta-primary {
+    background: #fff;
+    color: var(--primary);
+    transition: 0.3s;
+}
+
+.cta-primary:hover {
+    transform: translateY(-10px);
+}
+
+.cta-secondary {
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.cta-secondary:hover {
+    background: #fff;
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+
+    .cta-title {
+        font-size: 36px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+}
