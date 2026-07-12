@@ -1,0 +1,118 @@
+/* ===================================
+   Product Card
+=================================== */
+
+.product-card {
+
+    background: #fff;
+
+    border: 1px solid var(--border);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    transition: var(--transition);
+
+    box-shadow: var(--shadow);
+
+}
+
+.product-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+.product-card-image {
+
+    height: 260px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f8fafc;
+
+}
+
+.product-placeholder {
+
+    width: 120px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    border: 2px dashed var(--border);
+
+    font-size: 52px;
+
+}
+
+.product-card-content {
+
+    padding: 30px;
+
+}
+
+.product-card-title {
+
+    margin-bottom: 15px;
+
+    font-size: 24px;
+
+}
+
+.product-card-description {
+
+    margin-bottom: 20px;
+
+    color: var(--text-light);
+
+    line-height: 1.8;
+
+}
+
+.product-card-features {
+
+    margin-bottom: 30px;
+
+    padding-left: 20px;
+
+}
+
+.product-card-features li {
+
+    margin-bottom: 10px;
+
+}
+
+.product-card-button {
+
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    background: var(--primary);
+
+    color: #fff;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    transition: var(--transition);
+
+}
+
+.product-card-button:hover {
+
+    background: var(--primary-hover);
+
+}

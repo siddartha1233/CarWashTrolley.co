@@ -1,5 +1,6 @@
 import ProductsBanner from "../components/products/ProductsBanner";
 import ProductIntro from "../components/products/ProductIntro";
+import ProductGrid from "../components/products/ProductGrid";
 import CTA from "../components/home/CTA";
 
 const Products = () => {
@@ -7,9 +8,7 @@ const Products = () => {
     <>
       <ProductsBanner />
       <ProductIntro />
-
-      {/* Product Grid */}
-
+      <ProductGrid />
       <CTA />
     </>
   );
