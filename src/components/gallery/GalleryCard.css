@@ -1,0 +1,87 @@
+/* ===================================
+   Gallery Card
+=================================== */
+
+.gallery-card {
+
+    background: #fff;
+
+    border: 1px solid var(--border);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow);
+
+    transition: var(--transition);
+
+}
+
+.gallery-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+.gallery-card-image {
+
+    height: 280px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f8fafc;
+
+}
+
+.gallery-placeholder {
+
+    width: 120px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: #fff;
+
+    border: 2px dashed var(--border);
+
+    font-size: 50px;
+
+}
+
+.gallery-card-content {
+
+    padding: 25px;
+
+}
+
+.gallery-category {
+
+    display: inline-block;
+
+    margin-bottom: 15px;
+
+    padding: 6px 14px;
+
+    background: #eef5ff;
+
+    color: var(--primary);
+
+    border-radius: 30px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.gallery-title {
+
+    font-size: 22px;
+
+}
