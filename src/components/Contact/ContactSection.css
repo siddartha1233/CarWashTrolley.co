@@ -122,16 +122,28 @@
 
     font-size: 16px;
     font-weight: 600;
-
+    border: 1px solid var(--primary);
     transition: var(--transition);
 
 }
 
 .contact-form button:hover {
-
+    color: var(--primary);
     background: var(--primary-hover);
 
 }
+
+.success-message {
+    margin-top: 20px;
+    padding: 15px 18px;
+    border: 1px solid #22c55e;
+    background: #ecfdf5;
+    color: #166534;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 
 @media (max-width: 992px) {
 

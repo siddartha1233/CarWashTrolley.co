@@ -1,19 +1,36 @@
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import "./ContactSection.css";
+import { sendInquiry } from "../../services/emailService";
 
 const ContactSection = () => {
-
     const { register, handleSubmit, reset } = useForm();
 
-    const onSubmit = (data) => {
-        console.log(data);
-        alert("Inquiry submitted successfully!");
-        reset();
-    };
+    const [sending, setSending] = useState(false);
+    const [success, setSuccess] = useState(false);
 
+    const onSubmit = async (data) => {
+        try {
+            setSending(true);
+            setSuccess(false);
+
+            await sendInquiry(data);
+
+            reset();
+
+            setSuccess(true);
+
+        } catch (error) {
+            console.error(error);
+
+            alert("❌ Failed to send inquiry. Please try again.");
+
+        } finally {
+            setSending(false);
+        }
+    };
     return (
         <section className="contact-section">
-
             <div className="contact-section-container">
 
                 {/* Contact Information */}
@@ -39,12 +56,12 @@ const ContactSection = () => {
 
                     <div className="contact-item">
                         <strong>📞 Phone</strong>
-                        <span>To Be Updated</span>
+                        <span>+971525694039</span>
                     </div>
 
                     <div className="contact-item">
                         <strong>✉ Email</strong>
-                        <span>To Be Updated</span>
+                        <span>info@carwashtrolley.co</span>
                     </div>
 
                     <div className="contact-item">
@@ -91,14 +108,20 @@ const ContactSection = () => {
                         {...register("message")}
                     />
 
-                    <button type="submit">
-                        Send Inquiry
+                    <button type="submit" disabled={sending}>
+                        {sending ? "Sending..." : "Send Inquiry"}
                     </button>
+
+                    {success && (
+                        <div className="success-message">
+                            ✅ Thank you! Your inquiry has been sent successfully.
+                            Our team will contact you shortly.
+                        </div>
+                    )}
 
                 </form>
 
             </div>
-
         </section>
     );
 };

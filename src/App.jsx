@@ -10,10 +10,16 @@ import Gallery from "./pages/Gallery";
 import Industries from "./pages/Industries";
 import Contact from "./pages/Contact";
 import Quote from "./pages/Quote";
+import ScrollToTop from "./components/common/ScrollToTop";
+
+
 
 function App() {
   return (
     <BrowserRouter>
+
+      <ScrollToTop />
+
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
@@ -26,6 +32,7 @@ function App() {
           <Route path="/quote" element={<Quote />} />
         </Route>
       </Routes>
+
     </BrowserRouter>
   );
 }
