@@ -44,15 +44,10 @@ const ContactSection = () => {
                     <h2>Let's Talk About Your Project</h2>
 
                     <p>
-                        Whether you need a standard FRP trolley or a
+                        Whether you need a standard Fiberglass  trolley or a
                         completely customized solution, our team is
                         ready to assist you.
                     </p>
-
-                    <div className="contact-item">
-                        <strong>📍 Address</strong>
-                        <span>To Be Updated</span>
-                    </div>
 
                     <div className="contact-item">
                         <strong>📞 Phone</strong>

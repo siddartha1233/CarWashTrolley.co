@@ -8,11 +8,11 @@ import trolley9 from "../assets/images/trolley-9.jpeg";
 export const products = [
   {
     slug: "single-bucket-car-wash-trolley",
-    name: "Single Bucket Car Wash Trolley",
+    name: "60 Liter Car Wash Trolley",
     image: trolley1,
     description: "...",
     features: [
-      "Lightweight FRP Body",
+      "Lightweight Fiberglass  Body",
       "Rust Resistant",
       "Heavy Duty Wheels"
     ]
@@ -20,7 +20,7 @@ export const products = [
 
   {
     slug: "double-bucket-car-wash-trolley",
-    name: "Double Bucket Car Wash Trolley",
+    name: "Mobile Detailing Cart",
     image: trolley3,
     description: "...",
     features: [
@@ -32,7 +32,7 @@ export const products = [
 
   {
     slug: "mobile-detailing-cart",
-    name: "Mobile Detailing Cart",
+    name: "100 Liter Car Wash Trolley",
     image: trolley7,
     description: "...",
     features: [
@@ -43,8 +43,8 @@ export const products = [
   },
 
   {
-    slug: "custom-frp-trolley",
-    name: "Custom FRP Trolley",
+    slug: "custom-Fiberglass -trolley",
+    name: "Custom Fiberglass  Trolley",
     image: trolley9,
     description: "...",
     features: [

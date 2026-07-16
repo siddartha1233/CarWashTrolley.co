@@ -12,7 +12,7 @@ const CTA = () => {
 
         <p className="cta-description">
           Let's discuss your requirements and help you choose
-          the ideal FRP trolley solution for your business.
+          the ideal Fiberglass  trolley solution for your business.
         </p>
 
         <div className="cta-buttons">

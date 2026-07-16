@@ -35,7 +35,7 @@ const ProductCard = ({ product }) => {
         </ul>
 
         <Link
-          to={`/products/${product.slug}`}
+          to={`/contact`}
           className="product-card-button"
         >
           View Details

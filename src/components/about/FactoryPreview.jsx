@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import "./FactoryPreview.css";
+import trolley11 from "../../assets/images/trolley-11.jpeg";
+import trolley10 from "../../assets/images/trolley-10.jpeg";
+
 
 const FactoryPreview = () => {
   return (
@@ -18,7 +21,7 @@ const FactoryPreview = () => {
           </h2>
 
           <p className="factory-description">
-            Every FRP product is manufactured with precision,
+            Every Fiberglass  product is manufactured with precision,
             quality materials and careful craftsmanship to
             ensure long-lasting performance.
           </p>
@@ -28,13 +31,13 @@ const FactoryPreview = () => {
         <div className="factory-gallery">
 
           <div className="factory-image">
-            <span>🏭</span>
-            <p>Factory Photo</p>
+            <span><img src={trolley10} alt="Factory Photo" /></span>
+            
           </div>
 
           <div className="factory-image">
-            <span>⚙️</span>
-            <p>Production Area</p>
+            <span><img src={trolley11} alt="Production Area" /></span>
+            
           </div>
 
         </div>

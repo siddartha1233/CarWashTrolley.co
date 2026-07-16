@@ -15,7 +15,7 @@ const ContactBanner = () => {
         </h1>
 
         <p className="contact-banner-description">
-          Have questions about our FRP products or need a custom
+          Have questions about our Fiberglass  products or need a custom
           manufacturing solution? Our team is ready to assist you.
         </p>
 

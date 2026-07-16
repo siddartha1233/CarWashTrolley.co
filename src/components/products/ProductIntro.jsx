@@ -14,7 +14,7 @@ const ProductIntro = () => {
         </h2>
 
         <p className="product-intro-description">
-          Our FRP car wash trolleys are manufactured using premium
+          Our Fiberglass  car wash trolleys are manufactured using premium
           fiberglass materials to deliver exceptional durability,
           corrosion resistance and long-term reliability. Whether
           you operate a car wash, detailing business or industrial

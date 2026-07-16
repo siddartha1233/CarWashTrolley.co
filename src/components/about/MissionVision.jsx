@@ -29,7 +29,7 @@ const MissionVision = () => {
             <h3>Our Mission</h3>
 
             <p>
-              To manufacture premium FRP products that help
+              To manufacture premium Fiberglass  products that help
               businesses improve efficiency through durable,
               reliable and innovative fiberglass solutions.
             </p>

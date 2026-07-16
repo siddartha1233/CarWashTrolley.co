@@ -34,7 +34,7 @@ const CompanyOverview = () => {
           </span>
 
           <h2 className="company-title">
-            Engineering Durable FRP Solutions
+            Engineering Durable Fiberglass  Solutions
             <span>for the Car Wash Industry</span>
           </h2>
 
@@ -48,7 +48,7 @@ const CompanyOverview = () => {
           </p>
 
           <ul className="company-features">
-            <li>Premium FRP Materials</li>
+            <li>Premium Fiberglass  Materials</li>
             <li>Custom Manufacturing Solutions</li>
             <li>Worldwide Supply & Export</li>
           </ul>

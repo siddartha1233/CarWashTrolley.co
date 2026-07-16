@@ -10,13 +10,13 @@ const ProductsBanner = () => {
         </span>
 
         <h1 className="products-banner-title">
-          Premium FRP Car Wash Trolleys
+          Premium Fiberglass  Car Wash Trolleys
         </h1>
 
         <p className="products-banner-description">
           Explore our complete range of professionally engineered
           fiberglass car wash trolleys, detailing carts and
-          custom FRP solutions designed for durability,
+          custom Fiberglass  solutions designed for durability,
           performance and efficiency.
         </p>
 

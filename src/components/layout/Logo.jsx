@@ -15,7 +15,7 @@ const Logo = () => {
         </h1>
 
         <p className="logo-tagline">
-          FRP Trolley Manufacturer
+          Fiberglass  Trolley Manufacturer
         </p>
       </div>
     </Link>

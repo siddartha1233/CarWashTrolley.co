@@ -10,7 +10,7 @@ const AboutBanner = () => {
         </span>
 
         <h1 className="about-banner-title">
-          Engineering Premium FRP
+          Engineering Premium Fiberglass 
           <span>Solutions Since 2010</span>
         </h1>
 

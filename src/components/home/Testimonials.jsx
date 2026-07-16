@@ -7,7 +7,7 @@ const testimonials = [
     position: "Operations Manager",
     country: "UAE",
     review:
-      "The FRP trolley quality exceeded our expectations. Durable, lightweight and perfect for our detailing operation.",
+      "The Fiberglass  trolley quality exceeded our expectations. Durable, lightweight and perfect for our detailing operation.",
   },
   {
     id: 2,

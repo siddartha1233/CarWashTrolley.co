@@ -1,7 +1,7 @@
 export const siteConfig = {
   company: {
     name: "CarWashTrolley.co",
-    tagline: "Professional FRP Car Wash Trolley Manufacturer",
+    tagline: "Professional Fiberglass  Car Wash Trolley Manufacturer",
     phone: "+971 52 569 4039",
     email: "sales@carwashtrolley.co",
   },

@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="hero-content">
 
           <span className="hero-badge">
-            Premium FRP Manufacturer
+            Premium Fiberglass  Manufacturer
           </span>
 
           <h1 className="hero-title">
@@ -19,7 +19,7 @@ const Hero = () => {
           </h1>
 
           <p className="hero-description">
-            We manufacture durable, lightweight and corrosion-resistant FRP
+            We manufacture durable, lightweight and corrosion-resistant Fiberglass 
             car wash trolleys designed for professional detailing companies,
             workshops and industrial cleaning businesses worldwide.
           </p>
@@ -71,7 +71,7 @@ const Hero = () => {
             <h3>Product Image</h3>
 
             <p>
-              Premium FRP Car Wash Trolley
+              Premium Fiberglass  Car Wash Trolley
             </p>
 
           </div>

@@ -1,26 +1,34 @@
 import { Link } from "react-router-dom";
 import "./FeaturedProducts.css";
 import img1 from "./img1.jpeg";
+import img2 from "./img2.jpeg";
+import img3 from "./img3.jpeg";
+import img4 from "./img4.jpeg";
 
 const products = [
   {
     id: 1,
-    name: "Single Bucket Trolley",
-    description: "Compact FRP trolley for professional car washing.",
+    name: "60 Liter Bucket Trolley",
+    img: img1,
+    description: "Compact Fiberglass  trolley for professional car washing.",
   },
   {
     id: 2,
-    name: "Double Bucket Trolley",
+    name: "130 Liter Bucket Trolley",
+    img: img2,
     description: "Dual-bucket system for efficient detailing.",
   },
   {
     id: 3,
     name: "Mobile Detailing Cart",
+    img: img3,
     description: "Organized storage for tools and accessories.",
   },
+    
   {
     id: 4,
-    name: "Custom FRP Trolley",
+    name: "Custom Fiberglass  Trolley",
+    img: img4,
     description: "Tailor-made solutions for commercial use.",
   },
 ];
@@ -34,7 +42,7 @@ const FeaturedProducts = () => {
           <span className="section-subtitle">FEATURED PRODUCTS</span>
 
           <h2 className="section-title">
-            Explore Our Premium FRP Product Range
+            Explore Our Premium Fiberglass  Product Range
           </h2>
 
           <p className="section-description">
@@ -48,7 +56,10 @@ const FeaturedProducts = () => {
             <div key={product.id} className="product-card">
 
               <div className="product-image">
-                <img src={img1} alt={product.name} />
+                <img
+                  src={product.img}
+                  alt={product.name}
+                />
               </div>
 
               <h3>{product.name}</h3>
