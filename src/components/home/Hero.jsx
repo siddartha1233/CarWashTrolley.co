@@ -14,7 +14,6 @@ const Hero = () => {
           </span>
 
           <h1 className="hero-title">
-            Engineering Premium
             <span>Car Wash Trolleys</span>
           </h1>
 
