@@ -15,7 +15,7 @@ const Navbar = () => {
         <Logo />
 
         <nav className={`navbar-navigation ${menuOpen ? "active" : ""}`}>
-          <NavLinks />
+          <NavLinks closeMenu={() => setMenuOpen(false)} />
         </nav>
 
         <div className="navbar-actions">
@@ -27,8 +27,9 @@ const Navbar = () => {
           <button
             className="navbar-mobile-toggle"
             onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle Menu"
           >
-            ☰
+            {menuOpen ? "✕" : "☰"}
           </button>
 
         </div>

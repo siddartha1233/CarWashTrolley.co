@@ -2,59 +2,42 @@
    Navigation Links
 =================================== */
 
-.nav-links {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+@media (max-width: 992px) {
 
-    margin: 0;
-    padding: 0;
+    .navbar-navigation {
+        display: none;
 
-    list-style: none;
-}
+        position: absolute;
+        top: 80px;
+        left: 0;
 
-.nav-item {
-    position: relative;
-}
+        width: 100%;
+        background: #fff;
 
-.nav-link {
-    position: relative;
+        box-shadow: 0 10px 30px rgba(0,0,0,.08);
+        border-top: 1px solid var(--border);
+    }
 
-    text-decoration: none;
-    color: var(--text);
+    .navbar-navigation.active {
+        display: block;
+    }
 
-    font-size: 15px;
-    font-weight: 600;
+    .navbar-navigation ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 20px 0;
+    }
 
-    transition: var(--transition);
-}
+    .navbar-navigation li {
+        width: 100%;
+        text-align: center;
+    }
 
-.nav-link:hover {
-    color: var(--primary);
-}
-
-.nav-link.active {
-    color: var(--primary);
-}
-
-/* Underline Animation */
-
-.nav-link::after {
-    content: "";
-
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-
-    width: 0;
-    height: 2px;
-
-    background: var(--primary);
-
-    transition: width .3s ease;
-}
-
-.nav-link:hover::after,
-.nav-link.active::after {
-    width: 100%;
+    .navbar-navigation a {
+        display: block;
+        width: 100%;
+        padding: 16px 0;
+    }
 }
