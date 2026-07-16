@@ -33,10 +33,10 @@ const Hero = () => {
             </Link>
 
             <Link
-              to="/quote"
+              to="/contact"
               className="hero-btn hero-btn-secondary"
             >
-              Request Quote
+              Contact Us
             </Link>
 
           </div>
