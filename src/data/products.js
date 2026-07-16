@@ -1,57 +1,56 @@
+import trolley1 from "../assets/images/trolley-1.jpeg";
+import trolley3 from "../assets/images/trolley-3.jpeg";
+import trolley7 from "../assets/images/trolley-7.jpeg";
+import trolley9 from "../assets/images/trolley-9.jpeg";
+
+
+
 export const products = [
   {
-    id: 1,
     slug: "single-bucket-car-wash-trolley",
     name: "Single Bucket Car Wash Trolley",
-    description:
-      "Professional FRP trolley designed for commercial car washing applications.",
+    image: trolley1,
+    description: "...",
     features: [
       "Lightweight FRP Body",
       "Rust Resistant",
       "Heavy Duty Wheels"
-    ],
-    image: ""
+    ]
   },
 
   {
-    id: 2,
     slug: "double-bucket-car-wash-trolley",
     name: "Double Bucket Car Wash Trolley",
-    description:
-      "Dual bucket fiberglass trolley for efficient professional detailing.",
+    image: trolley3,
+    description: "...",
     features: [
       "Dual Bucket Design",
       "Durable Construction",
       "Easy Mobility"
-    ],
-    image: ""
+    ]
   },
 
   {
-    id: 3,
     slug: "mobile-detailing-cart",
     name: "Mobile Detailing Cart",
-    description:
-      "Organized detailing trolley with multiple storage compartments.",
+    image: trolley7,
+    description: "...",
     features: [
       "Large Storage",
       "Professional Finish",
       "Smooth Movement"
-    ],
-    image: ""
+    ]
   },
 
   {
-    id: 4,
     slug: "custom-frp-trolley",
     name: "Custom FRP Trolley",
-    description:
-      "Custom engineered fiberglass trolley manufactured to your specifications.",
+    image: trolley9,
+    description: "...",
     features: [
       "Custom Sizes",
       "Premium Fiberglass",
       "Built to Order"
-    ],
-    image: ""
+    ]
   }
 ];

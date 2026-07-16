@@ -1,4 +1,5 @@
 import "./AboutCompany.css";
+import trolley10 from "../../assets/images/trolley-11.jpeg";
 
 const AboutCompany = () => {
   return (
@@ -10,7 +11,7 @@ const AboutCompany = () => {
           <div className="about-company-placeholder">
 
             <div className="placeholder-icon">
-              🏭
+              <img src={trolley10} alt="Factory Image" />
             </div>
 
             <h3>Factory Image</h3>

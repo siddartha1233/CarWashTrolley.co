@@ -87,6 +87,8 @@
 }
 
 .factory-link:hover {
+    color: var(--primary);
+    border: solid 1px var(--primary);
     background: var(--primary-hover);
 }
 

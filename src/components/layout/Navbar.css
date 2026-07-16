@@ -46,11 +46,12 @@
 
     font-size: 15px;
     font-weight: 600;
-
+    border: solid 1px var(--primary);
     transition: var(--transition);
 }
 
 .navbar-button:hover {
+    color : var(--primary);
     background: var(--primary-hover);
 }
 

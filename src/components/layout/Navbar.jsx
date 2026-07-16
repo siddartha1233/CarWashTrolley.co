@@ -15,8 +15,8 @@ const Navbar = () => {
         </nav>
 
         <div className="navbar-actions">
-          <Link to="/quote" className="navbar-button">
-            Request Quote
+          <Link to="/contact" className="navbar-button">
+            Contact Us
           </Link>
 
           <button className="navbar-mobile-toggle">

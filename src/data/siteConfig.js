@@ -10,7 +10,6 @@ export const siteConfig = {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Products", path: "/products" },
-    { name: "Industries", path: "/industries" },
     { name: "Gallery", path: "/gallery" },
     { name: "Contact", path: "/contact" },
   ],

@@ -4,11 +4,14 @@ const GalleryCard = ({ item }) => {
   return (
     <article className="gallery-card">
 
-      <div className="gallery-card-image">
-        <div className="gallery-placeholder">
-          🖼️
+
+        <div className="gallery-card-image">
+            <img
+                src={item.image}
+                alt={item.title}
+                className="gallery-image"
+            />
         </div>
-      </div>
 
       <div className="gallery-card-content">
 

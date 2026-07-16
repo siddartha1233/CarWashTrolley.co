@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Hero.css";
+import img1 from "./img1.jpeg";
 
 const Hero = () => {
   return (
@@ -64,7 +65,7 @@ const Hero = () => {
           <div className="hero-placeholder">
 
             <div className="hero-placeholder-icon">
-              📦
+              <img src={img1} alt="Product Image" />
             </div>
 
             <h3>Product Image</h3>

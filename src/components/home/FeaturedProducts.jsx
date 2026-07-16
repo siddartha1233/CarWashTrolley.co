@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./FeaturedProducts.css";
+import img1 from "./img1.jpeg";
 
 const products = [
   {
@@ -47,7 +48,7 @@ const FeaturedProducts = () => {
             <div key={product.id} className="product-card">
 
               <div className="product-image">
-                📦
+                <img src={img1} alt={product.name} />
               </div>
 
               <h3>{product.name}</h3>

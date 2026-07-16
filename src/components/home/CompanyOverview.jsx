@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./CompanyOverview.css";
+import trolley10 from "../../assets/images/trolley-10.jpeg";
 
 const CompanyOverview = () => {
   return (
@@ -12,7 +13,7 @@ const CompanyOverview = () => {
           <div className="company-placeholder">
 
             <div className="placeholder-icon">
-              🏭
+              <img src={trolley10} alt="Product Image" />
             </div>
 
             <h3>Factory Image</h3>

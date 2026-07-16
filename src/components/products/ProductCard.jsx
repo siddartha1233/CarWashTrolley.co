@@ -1,14 +1,19 @@
 import { Link } from "react-router-dom";
 import "./ProductCard.css";
 
+
+
+
 const ProductCard = ({ product }) => {
   return (
     <article className="product-card">
 
       <div className="product-card-image">
-        <div className="product-placeholder">
-          📦
-        </div>
+          <img
+              src={product.image}
+              alt={product.name}
+              className="product-card-img"
+          />
       </div>
 
       <div className="product-card-content">
