@@ -73,6 +73,23 @@
 
     .navbar-navigation {
         display: none;
+
+        position: absolute;
+        top: 80px;
+        left: 0;
+
+        width: 100%;
+
+        background: #fff;
+
+        padding: 20px 0;
+
+        border-top: 1px solid var(--border);
+        box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    }
+
+    .navbar-navigation.active {
+        display: block;
     }
 
     .navbar-button {
