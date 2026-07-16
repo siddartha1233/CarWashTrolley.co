@@ -1,5 +1,5 @@
-import ContactBanner from "../components/contact/ContactBanner";
-import ContactSection from "../components/contact/ContactSection";
+import ContactBanner from "../components/Contact/ContactBanner";
+import ContactSection from "../components/Contact/ContactSection";
 import CTA from "../components/home/CTA";
 
 
